@@ -1,4 +1,28 @@
 /* App.css */
+@media (max-width: 767px) {
+  .container,
+  body,
+  .myApp {
+    margin-top: 20px;
+    padding: 10px; /* Reduced padding for smaller screens */
+  }
+
+  h1 {
+    font-size: 32px; /* Smaller font size for h1 on smaller screens */
+    padding: 5%; /* Adjusted padding for better spacing */
+  }
+
+  p {
+    font-size: 12px; /* Adjust font size for paragraph text */
+  }
+
+  .button-49,
+  .button-49:after {
+    width: 120px; /* Smaller button width */
+    height: 56px; /* Smaller button height */
+    line-height: 58px; /* Adjusted line height */
+  }
+}
 .container {
   text-align: center;
   margin-top: 50px;
